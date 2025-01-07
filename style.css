@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+}
+
+
+.main {
+    background-image: url("assests/images/bg.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(2150px, 100%);
+    height: 75vh;
+    position: relative;
+}
+
+.main .box {
+    height: 75vh;
+    width: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    background-color: black;
+
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+nav img {
+    color: red;
+    width: 120px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+
+}
+
+.hero {
+    font-family: "Martel Sans", serif;
+    height: calc(100% - 60px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    padding: 0 30px;
+
+}
+
+.hero1 {
+    font-weight: 900;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    gap: 10px;
+    text-align: center;
+}
+
+.hero2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-weight: 400px;
+    font-size: 0.8rem;
+    text-align: center;
+    gap: 10px;
+}
+
+.separation {
+    height: 5px;
+    background-color: rgb(33, 31, 31);
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bolder;
+    background-color: white;
+}
+
+.btn-red-s {
+    background-color: red;
+    color: white;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 10px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input {
+    padding: 8px 100px 8px 8px;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.8);
+    border: 1px solid rgb(246, 238, 238, 0.2);
+}

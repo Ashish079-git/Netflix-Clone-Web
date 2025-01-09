@@ -97,13 +97,17 @@ nav button {
 
 .btn {
     padding: 3px 8px;
-    font-weight: bolder;
-    background-color: white;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(242, 232, 232, 0.085);
+    border: 1px solid rgb(246, 238, 238, 0.2) ;
+    border-radius: 3px;
 }
 
 .btn-red-s {
     background-color: red;
     color: white;
+    border-radius: 4px;
 }
 
 .btn-red {
@@ -123,9 +127,61 @@ nav button {
 
 .main input {
     padding: 8px 100px 8px 8px;
-    font-weight: 900;
+    color: white;
     font-size: 12px;
     border-radius: 4px;
     background-color: rgba(23, 23, 23, 0.8);
     border: 1px solid rgb(246, 238, 238, 0.2);
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 14px;
+    right: 0;
+    height: 250px;
+}
+
+.firstMsg {
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+}
+
+.firstMsg :nth-child(2){
+    font-size: 24px;
+}
+
+.faq {
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+.faqbox {
+    display: flex
+    ;
+        background-color: grey;
+        padding: 12px;
+        max-width: 48vw;
+        margin: 23px auto;
 }
